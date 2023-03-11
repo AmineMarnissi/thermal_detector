@@ -2,8 +2,6 @@
 ## :pushpin: Installation
 ```bash
 conda env create -f environment.yml
-```
-```bash
 conda activate thermal_env
 ```
 ## :pushpin: Quick start: testing scripts
