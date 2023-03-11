@@ -1,0 +1,47 @@
+name: thermal_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - ca-certificates=2022.10.11=h06a4308_0
+  - certifi=2022.12.7=py37h06a4308_0
+  - cudatoolkit=11.3.1=h9edb442_10
+  - easydict=1.9=py_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libblas=3.9.0=16_linux64_openblas
+  - libcblas=3.9.0=16_linux64_openblas
+  - libffi=3.4.2=h6a678d5_6
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgfortran-ng=11.2.0=h00389a5_1
+  - libgfortran5=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - liblapack=3.9.0=16_linux64_openblas
+  - libopenblas=0.3.21=h043d6bf_0
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - ncurses=6.3=h5eee18b_3
+  - numpy=1.19.5=py37h3e96413_3
+  - openssl=1.1.1s=h7f8727e_0
+  - pip=22.3.1=py37h06a4308_0
+  - pyaml=20.4.0=pyhd3eb1b0_0
+  - python=3.7.16=h7a1cb2a_0
+  - python_abi=3.7=2_cp37m
+  - pyyaml=6.0=py37h5eee18b_1
+  - readline=8.2=h5eee18b_0
+  - scipy=1.5.3=py37h14a347d_0
+  - setuptools=65.6.3=py37h06a4308_0
+  - sqlite=3.40.1=h5082296_0
+  - tk=8.6.12=h1ccaba5_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.10=h5eee18b_0
+  - yaml=0.2.5=h7b6447c_0
+  - zlib=1.2.13=h5eee18b_0
+  - pip:
+    - imageio==2.24.0
+    - opencv-python==4.7.0.68
+    - pickle5==0.0.12
+    - pillow==9.4.0
+    - torch==1.8.1
+    - torchaudio==0.8.1
+    - torchvision==0.9.1
