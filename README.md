@@ -9,3 +9,5 @@ Run the following command directly to test:
 ```bash
 bash demo.sh 'tr_video.mp4' 'tr_video_det.mp4'
 ```
+## :pushpin: Output Video
+![Thermal video](tr_video_det.gif?raw=true "Thermal output video")
